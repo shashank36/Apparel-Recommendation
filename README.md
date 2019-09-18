@@ -1,7 +1,6 @@
 # Apparel-Recommendation
 Recommending similar products (apparel) to the given product (apparel) in amazon e-commerce websites.
 
-![image](https://user-images.githubusercontent.com/40149802/64980302-2d3c3700-d8d7-11e9-99d4-0de844dfcb05.png)
 
 
 ## Statement
@@ -12,15 +11,15 @@ Product recommendations are the alternative way of navigating through the online
 
 The recommendation engine, uses information about 1,80,000 products and each product will have multiple features named.
 
-We will try multiple techniques using text/title and image to recommend similar products/items
+Using various techniques we try to recommend similar products/items
 
 Each product/item has 19 features in the raw dataset out of these 19 features, we will be using only 6 features
 
 
- 1. asin ( Amazon standard identification number) 
- 2. brand ( brand to which the product belongs to )
- 3. color ( Color information of apparel, it can contain many colors as a value ex: red and black stripes ) 
+ 1. asin ( identification number) 
+ 2. brand ( brand of the product )
+ 3. color ( Color info e.g: red and black stripes ) 
  4. product_type_name (type of the apperal, ex: SHIRT/TSHIRT ) 
  5. medium_image_url ( url of the image )
- 6. title (title of the product.) 
- 7. formatted_price (price of the product)
+ 6. title 
+ 7. formatted_price (price)
